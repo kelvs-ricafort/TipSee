@@ -253,7 +253,7 @@
                                     <color key="titleColor" red="0.84290313719999999" green="0.98382014039999999" blue="0.92541593310000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="recalculatePressed:" destination="JLe-lk-Xr5" eventType="touchUpInside" id="2cm-T1-jN5"/>
+                                    <action selector="recalculatePressed:" destination="JLe-lk-Xr5" eventType="touchUpInside" id="DhN-Ab-xFs"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Split between 2 people, with 10% tip." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Vu-Tf-Ugd">
@@ -280,8 +280,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="settingsLabel" destination="9Vu-Tf-Ugd" id="JYF-7g-Ne2"/>
-                        <outlet property="totalLabel" destination="2mp-Gy-cyn" id="8Rv-mQ-Zk9"/>
+                        <outlet property="settingsLabel" destination="9Vu-Tf-Ugd" id="ekI-Q0-bxF"/>
+                        <outlet property="totalLabel" destination="2mp-Gy-cyn" id="uP1-As-Wti"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8yV-DQ-5W6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
