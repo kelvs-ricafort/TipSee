@@ -16,6 +16,7 @@ class CalculatorViewController: UIViewController {
     @IBOutlet weak var splitNumberLabel: UILabel!
     
     var tip = 0.10
+    var numberOfPeople = 2
     
     @IBAction func tipChanged(_ sender: UIButton) {
         // Deselect all tip buttons via IBOutlets
@@ -40,12 +41,16 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func stepperValueChanged(_ sender: UIStepper) {
+        /* Get the stepper value using sender.value, round it down to a whole number then set it as the text in the splitNumberLabel */
+        splitNumberLabel.text = String(format: "%.0f", sender.value)
         
+        // Set the numberOfPeople property as the value of the stepper as a whole number
+        numberOfPeople = Int(sender.value)
     }
     
     
     @IBAction func calculatePressed(_ sender: UIButton) {
-        print(tip)
+        print(numberOfPeople)
     }
 }
 
